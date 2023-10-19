@@ -129,6 +129,15 @@ img {
  ************************************************/
 
  @media screen and (max-width: 480px)  {
+    h1{
+        font-size: 2.2rem;
+    }
+
+    h2{
+        font-size: 1.7rem;
+        margin-bottom: 0;
+    }
+
  .row  {
         display: flex;
         flex-direction: column;
@@ -141,15 +150,25 @@ img {
     }
 
    .lessons p {
-        padding: 0 6rem;
+        padding: 0 8rem 3rem 8rem;
+        font-size: 0.9rem;
    }
 
-   .ul {
-       
-        padding: 0 6rem;
+   .steps p {
+        padding: 0 2rem 3rem 2rem;
+   }
+
+   .ul { 
+        padding: 0 10rem;
    }
     
    .col-right,col {
         padding: 0rem 12rem;
+   }    
+
+   .card{
+    padding-top: 2rem;
    }
+   
+  
 }
