@@ -130,18 +130,19 @@ img {
 
  @media screen and (max-width: 480px)  {
     h1{
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
 
     h2{
-        font-size: 1.7rem;
-        margin-bottom: 0;
+        font-size: 2.5rem;
+        padding-top: 1rem;
     }
 
  .row  {
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
   body {    
         display: flex;
@@ -150,25 +151,30 @@ img {
     }
 
    .lessons p {
-        padding: 0 8rem 3rem 8rem;
-        font-size: 0.9rem;
+        padding: 0 5rem 3rem 5rem;
+        font-size: 1.2rem;
    }
 
    .steps p {
-        padding: 0 2rem 3rem 2rem;
+        padding: 0;
+        font-size: 1rem;
    }
 
    .ul { 
-        padding: 0 10rem;
+        padding: 0 1rem;
    }
     
-   .col-right,col {
-        padding: 0rem 12rem;
-   }    
+   .col-right{
+    padding: 0 8rem;
+   }
+
+   .steps col{
+    padding: 0rem
+   }
 
    .card{
-    padding-top: 2rem;
+        padding-bottom: 5rem;
    }
-   
-  
+
 }
+   
